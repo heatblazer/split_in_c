@@ -43,12 +43,16 @@ int main(int argc, char** argv)
 
     //test the get
     int j;
-    for(j=0; j < getSize(); j++)
+//    for(j=0; j < getSize(); j++)
+//    {
+//        printf("[%d]=[%s]\n", j, getAt(j));
+//    }
+
+    //reverse
+    for(j=getSize()-1; j>=0; j--)
     {
         printf("[%d]=[%s]\n", j, getAt(j));
     }
-
-
 
     return 0;
 }
