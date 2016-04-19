@@ -37,7 +37,7 @@ int main(int argc, char** argv)
 
     //1st pass with a small bug with the last string
     //fix: fixed the bug with the missing 0 terminator
-    int i = split(fileData, ':');
+    int i = split(fileData, ' ');
     //test the size
     printf("Size is: [%d]\n", i);
 
